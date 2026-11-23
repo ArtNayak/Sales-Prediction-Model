@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sales Prediction Dashboard</title>
+
+  <!-- Chart.js CDN (REQUIRED) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="dashboard">
+    <h1>Monthly Sales & Forecast</h1>
+
+    <!-- IMPORTANT: id MUST match app.js -->
+    <canvas id="salesChart"></canvas>
+
+    <div class="footer">Powered by ML Sales Forecasting</div>
+  </div>
+
+  <!-- JS MUST be at bottom -->
+  <script src="app.js"></script>
+</body>
+</html>
