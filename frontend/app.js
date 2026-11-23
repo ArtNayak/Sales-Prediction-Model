@@ -1,4 +1,4 @@
-const API = "http://127.0.0.1:5000";
+const API = ""; // same origin as the Flask server
 
 async function loadChart() {
   const [actual, predicted] = await Promise.all([

@@ -35,9 +35,9 @@ frontend/                index.html, app.js, styles.css (Chart.js dashboard)
 ## Run
 ```
 pip install -r requirements.txt
-python backend/api.py          # API on http://127.0.0.1:5000
+python backend/api.py
 ```
-Then open `frontend/index.html` in a browser.
+Then open http://127.0.0.1:5000 in a browser. Flask serves both the dashboard and the API, so no CORS is needed.
 
 To print the forecast without the API: `python backend/model/predict.py`.
 
